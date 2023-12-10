@@ -38,7 +38,6 @@ namespace Alg
         {
             new User { Login = "user1", Name = "Иван", IsPremium = true },
             new User { Login = "user2", Name = "Мария", IsPremium = false },
-            
         };
 
             Console.Write("Введите логин: ");
