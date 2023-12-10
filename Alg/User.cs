@@ -5,15 +5,15 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Alg
+namespace AlgClass
 {
-    internal class User
+    public class User
     {
         public string Login { get; set; }
         public string Name { get; set; }
         public bool IsPremium { get; set; }
 
-        static void ShowAds()
+        public void ShowAds()
         {
             Console.WriteLine("Посетите наш новый сайт с бесплатными играми free.games.for.a.fool.com");
             // Остановка на 1 с
